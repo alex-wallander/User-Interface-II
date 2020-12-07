@@ -48,6 +48,7 @@ table {
 	border-spacing: 0;
 }
 body{
+	box-sizing: border-box;
 	color:black;
 	font-size: 16px;
 }
@@ -135,13 +136,78 @@ footer{
 	padding:5%;
 	background:darkgray;
 }
-.footer{
+.foot{
 	display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-.footer a{
+.foot a{
 	background:white;
 	color:black;
+}
+@media(max-width:800px){
+	header{
+		margin:4% 2%
+	}
+	h1{
+		margin-left: 2%;
+	}
+	nav{
+		justify-content: space-evenly;
+    	margin-right: 5%;
+	}
+	nav a{
+		margin-right:10%;
+	}
+	.myproject{
+		height: 40vh;
+	}
+	.gallery{
+    	margin: 10%;
+    	justify-content: space-between;
+	}
+	.gallery .image{
+		margin-top: 2%;
+	}
+	.foot a{
+		margin-right: 3%;
+	}
+}
+@media(max-width:500px){
+	header{
+
+	}
+	.head{
+		flex-direction: column;
+	}
+	h1{
+		text-align: center;
+	}
+	nav{
+		flex-direction: column;
+    	flex-wrap: wrap;
+    	justify-content: center;
+    	align-items: center;
+		width: 59.5%;
+		margin-top: 2%;
+	}
+	nav a{
+		margin-right: 0%;
+	}
+	.myproject{
+		height: 200px;
+	}
+	.gallery{
+
+	}
+	.gallery .image{
+
+	}
+	h3{
+
+	}
+	.foot{
+		width: 65%;
+	}
 }
