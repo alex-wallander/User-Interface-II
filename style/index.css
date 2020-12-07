@@ -175,9 +175,6 @@ footer{
 	}
 }
 @media(max-width:500px){
-	header{
-
-	}
 	.head{
 		flex-direction: column;
 	}
