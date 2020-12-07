@@ -167,7 +167,7 @@ footer{
     	margin: 10%;
     	justify-content: space-between;
 	}
-	.gallery .image{
+	.image{
 		margin-top: 2%;
 	}
 	.foot a{
@@ -198,14 +198,11 @@ footer{
 	.myproject{
 		height: 200px;
 	}
-	.gallery{
-
+	.image{
+		margin-right: 4%;
 	}
-	.gallery .image{
-
-	}
-	h3{
-
+	.image img{
+		width: 100%;
 	}
 	.foot{
 		width: 65%;
